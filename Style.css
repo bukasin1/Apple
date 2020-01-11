@@ -27,12 +27,14 @@ a{
     padding: 0px;
     width: 1000px;
     height: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .nav ul li{
     display: inline;
     margin-right: 70px;
 }
-.nav ul li a{
+div a{
     color: white;
     font-family: sans-serif;
     font-size: 13px;
@@ -176,20 +178,20 @@ footer p{
     min-width: 140px;
    
 }
-@media(max-width:1100px){
+@media(max-width:1070px){
     .first h1{
-        font-size: 30px;
+        font-size: 45px;
         margin-bottom: -10px;
         letter-spacing: -2px;
         word-spacing: 3px;
         
     }
     .first h2{
-        font-size: 17px;
+        font-size: 22px;
         margin-bottom: -8px;
     }
     .first p{
-        font-size: 15px;
+        font-size: 17px;
     }
     .div{
         height: 450px;
@@ -214,8 +216,11 @@ footer p{
     }
 }
 @media(max-width:767px){
-    .nav ul li{
+    .nav1{
         display: none;
+    }
+    .nav{
+        height: 30px;
     }
     .services2{
         margin-top: 60px;
@@ -226,6 +231,20 @@ footer p{
     }
 }
 @media(max-width:750px){
+    .first h1{
+        font-size: 30px;
+        margin-bottom: -10px;
+        letter-spacing: -2px;
+        word-spacing: 3px;
+        
+    }
+    .first h2{
+        font-size: 17px;
+        margin-bottom: -8px;
+    }
+    .first p{
+        font-size: 15px;
+    }
     .flex-container{
         display: block;
     }
@@ -237,5 +256,15 @@ footer p{
     }
     .services2{
         margin-top: 50px;
+    }
+}
+@media(max-width:550px){
+    .services2{
+        margin-top: 140px;
+    }
+}
+@media(max-width:600px){
+    .services2{
+        margin-top: 120px;
     }
 }
