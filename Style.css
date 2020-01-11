@@ -92,7 +92,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-div{
+.div{
     width: 49%;
     height: 550px ;
     background-color: black;
@@ -102,18 +102,21 @@ div{
     font-family: sans-serif;
     padding-top: 40px;
 }
+div{
+    width: 100%;
+}
 div h1{
     font-size: 40px;
     margin-bottom: -15px;
     letter-spacing: -2px;
     word-spacing: 3px; 
 }
-div p{
+.div p{
    
     margin-bottom: -30px;
 }
 footer{
-    padding: 10px 300px 10px 300px;
+    padding: 10px 20px 10px 20px;
     background-color: rgba(231, 225, 225, 0.904);
 }
 footer p{
@@ -163,7 +166,7 @@ footer p{
     .flex-container{
         display: block;
     }
-    div{
+    .div{
         width: 100%;
     }
 }
