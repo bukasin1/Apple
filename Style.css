@@ -141,6 +141,34 @@ footer p{
 .footer{
     width: 1000px;
 }
+.services2{
+    background-color: tomato;
+    width: 1000px;
+    position: relative;
+    padding-left: -20px;
+    display: flex;
+    justify-content: space-between; 
+}
+.services2 ul li a{
+    line-height: 25px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: gray;
+}
+.services2 p{
+    color: black;
+    font-weight: bold;
+}
+.options{
+    max-width: 150px;
+    min-width: 140px;   
+}
+.footer-links{
+    background-color: brown;
+    width: 100%;
+    position: absolute;
+    
+}
 @media(max-width:1100px){
     .first h1{
         font-size: 30px;
@@ -184,6 +212,10 @@ footer p{
 @media(max-width:750px){
     .flex-container{
         display: block;
+    }
+    .services2{
+        display: block;
+        width: 100%;
     }
     .div{
         width: 100%;
