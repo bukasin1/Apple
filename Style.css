@@ -237,7 +237,6 @@ footer p{
       width: 100%;  
     }
     .footer-links ul{
-        
         position: absolute;
         visibility: visible;
         padding-left: 30px;
@@ -291,7 +290,11 @@ footer p{
         width: 100%;
     }
     .services2{
+        width: 100%;
         margin-top: 50px;
+    }
+    .footer-links{
+      width: 100%;  
     }
     .footer-links ul{
         margin-top: -1700px;
