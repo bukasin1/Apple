@@ -157,6 +157,7 @@ footer p{
     color: gray;
 }
 .services2{
+    background-color: tomato;
     width: 1000px;
     position: relative;
     padding-left: -20px;
@@ -179,9 +180,12 @@ footer p{
 }
 .footer-links{
     background-color: brown;
-    width: 100%;
+    width: 1000px;
     position: absolute;
     visibility: hidden;
+}
+.footer-links ul{
+    max-width: 750px;
 }
 @media(max-width:1070px){
     .first h1{
