@@ -181,7 +181,7 @@ footer p{
     background-color: brown;
     width: 100%;
     position: absolute;
-    
+    visibility: hidden;
 }
 @media(max-width:1070px){
     .first h1{
