@@ -216,11 +216,15 @@ footer p{
        
     }
 }
-@media(max-width:1017px){
+
+/* large screen size, 990px */
+@media(max-width:990px){
     .services2{
         margin-top: 15px;
+        background-color: blue;
     }
 }
+/* medium screen, 767px */
 @media(max-width:767px){
     .nav1{
         display: none;
@@ -301,6 +305,7 @@ footer p{
         margin-top: -1700px;
     }
 }
+/* 567, small screen */
 @media(max-width:550px){
     .services2{
         margin-top: 140px;
